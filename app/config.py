@@ -14,8 +14,8 @@ class Settings(BaseSettings):
     
     # LLM Configuration
     openai_api_key: str
-    primary_model: str = "gpt-4o-mini"
-    fallback_model: str = "gpt-4"
+    primary_model: str = "gpt-4o"
+    fallback_model: str = "gpt-4o-mini"
     
     # LangSmith
     langchain_tracing_v2: bool = True
